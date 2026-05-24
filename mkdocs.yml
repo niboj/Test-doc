@@ -1,0 +1,24 @@
+site_name: Architecture d’affaires de la PDM
+site_description: Documentation de l’architecture d’affaires de la Plateforme de développement moderne
+site_author: MCN
+
+theme:
+  name: zensical
+  language: fr
+
+nav:
+  - Accueil: index.md
+  - Instructions:
+      - Prompt de l’agent: 00-instructions/agent-architecture-affaires-pdm.md
+  - Architecture d’affaires:
+      - Vue d’ensemble: 01-architecture-affaires/index.md
+      - Structure des livrables: 01-architecture-affaires/structure-livrables.md
+      - Gabarit de section: 01-architecture-affaires/gabarit-section.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - toc:
+      permalink: true
